@@ -4,7 +4,6 @@ function Card() {
         <div className="card w-full max-w-md bg-gradient-to-br from-[rgba(210,217,222,0.5)] to-[rgba(210,217,222,0.2)] shadow-lg backdrop-blur-sm rounded-2xl p-8 z-10">
           
           <form className="space-y-6">
-            
             <div>
               <h1 className="card_title text-center text-2xl font-bold text-[#433335]">
                 login to sheCares
