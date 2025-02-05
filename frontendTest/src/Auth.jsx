@@ -1,10 +1,9 @@
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./components/Login";
-import DoctorDashboard from "./components/DoctorDashboard"; // Add your doctor dashboard component
-import PatientDashboard from "./components/PatientDashboard"; // Add your patient dashboard component
 import { AuthProvider } from "./context/AuthContext"; // Wrap in AuthProvider
 
-function App() {
+function Auth() {
     return (
         <AuthProvider>
             <Router>
@@ -18,4 +17,4 @@ function App() {
     );
 }
 
-export default App;
+export default Auth;
