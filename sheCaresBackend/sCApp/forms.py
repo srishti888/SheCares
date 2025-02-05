@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
-from .models import User
+from .models import User ,Appointment, Doctor
+
 
 class UserSignupForm(UserCreationForm):
     role = forms.ChoiceField(choices=User.ROLE_CHOICES, required=True)
@@ -24,3 +25,13 @@ class UserSignupForm(UserCreationForm):
             raise forms.ValidationError("Doctor ID is required for doctors.")
 
         return cleaned_data
+
+class AppointmentForm(forms.ModelForm):
+    class Meta:
+        model = Appointment
+        fields = ['appointment_time']
+
+class DoctorAvailabilityForm(forms.ModelForm):
+    class Meta:
+        model = Doctor
+        fields = ['available_days', 'available_times']
