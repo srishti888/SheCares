@@ -5,6 +5,8 @@ Key Features of SheCares
 
 ✅ Symptom-based Doctor Recommendations – The platform suggests gynecologists based on symptoms and medical history, ensuring personalized care.
 
+
+
 ✅ E-Prescription & Medical Records – Users can receive digital prescriptions and store medical reports securely for easy access.
 
 ✅ Secure Messaging with Doctors – A built-in chat system allows patients to consult doctors for quick queries or follow-ups.
